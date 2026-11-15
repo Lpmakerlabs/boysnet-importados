@@ -24,8 +24,12 @@ export function Navbar({ totalUnits, onOpenOrder }: NavbarProps) {
           className="flex items-center shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FCE8F0]"
         >
           <img
-            src={resolveAssetPath('/assets/aistudio/Logo_BoysNet_con_Sol_Sonriente_1__e410f336.png')}
+            src={resolveAssetPath('/assets/aistudio/Logo_BoysNet_con_Sol_Sonriente_1__e410f336.webp')}
             alt="BoysNet Importados"
+            width={120}
+            height={40}
+            fetchPriority="high"
+            decoding="async"
             className="h-9 w-auto object-contain sm:h-10"
           />
         </a>

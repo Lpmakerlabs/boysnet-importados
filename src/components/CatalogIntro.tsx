@@ -39,13 +39,13 @@ export function CatalogIntro({ totalReferences }: CatalogIntroProps) {
           <picture className="block w-full">
             <source
               media="(min-width: 768px)"
-              srcSet={resolveAssetPath('/assets/banners/banner-desktop.png')}
-              type="image/png"
+              srcSet={resolveAssetPath('/assets/banners/banner-desktop.webp')}
+              type="image/webp"
               width={2172}
               height={724}
             />
             <img
-              src={resolveAssetPath('/assets/banners/banner-mobile.png')}
+              src={resolveAssetPath('/assets/banners/banner-mobile.webp')}
               alt="BoysNet Importados — Importadores de perfumería, skincare y cosméticos. Perfumes, Skincare, Cosméticos. Envíos a todo el país. Más de 30 años junto a vos."
               width={1086}
               height={1448}
@@ -70,8 +70,10 @@ export function CatalogIntro({ totalReferences }: CatalogIntroProps) {
               <div className="flex items-center gap-4 lg:shrink-0">
                 <div className="h-15 w-15 shrink-0 overflow-hidden rounded-full border-2 border-white/90 bg-[#E6005A] shadow-xs sm:h-16 sm:w-16">
                   <img
-                    src={resolveAssetPath('/assets/aistudio/Logo_BoysNet_con_sol_sonriente_4dd2d177.png')}
+                    src={resolveAssetPath('/assets/aistudio/Logo_BoysNet_con_sol_sonriente_4dd2d177.webp')}
                     alt="BoysNet Importados"
+                    width={64}
+                    height={64}
                     loading="lazy"
                     decoding="async"
                     className="h-full w-full scale-110 object-cover"

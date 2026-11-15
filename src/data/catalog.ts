@@ -40,7 +40,7 @@ export const CATALOG_ITEMS: FragranceItem[] = (rawPdfCatalog as FragranceItem[])
 );
 const VALID_ITEM_IDS = new Set(CATALOG_ITEMS.map((item) => item.id));
 
-export const BUBBLE_WRAP_IMAGE = resolveAssetPath('/assets/pdf/img_29.jpg');
+export const BUBBLE_WRAP_IMAGE = resolveAssetPath('/assets/pdf/img_29.webp');
 
 export const WHOLESALE_WHATSAPP_NUMBER = '595985752200';
 export const WHOLESALE_PHONE_DISPLAY = '0985 752200';

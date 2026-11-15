@@ -147,8 +147,10 @@ export function WholesaleFooter() {
         <div className="mx-auto flex max-w-[1200px] flex-col items-start justify-between gap-4 px-4 pt-8 pb-24 text-sm sm:flex-row sm:items-center sm:px-6 md:py-8">
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <img
-              src={resolveAssetPath('/assets/aistudio/Logo_BoysNet_con_Sol_Sonriente_1__e410f336.png')}
+              src={resolveAssetPath('/assets/aistudio/Logo_BoysNet_con_Sol_Sonriente_1__e410f336.webp')}
               alt="BoysNet Importados"
+              width={108}
+              height={36}
               loading="lazy"
               decoding="async"
               className="h-8 w-auto object-contain shrink-0 sm:h-9"

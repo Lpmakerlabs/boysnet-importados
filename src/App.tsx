@@ -122,7 +122,7 @@ function CategoryCardIcon({ category }: { category: 'Todas' | FragranceLine }) {
 }
 
 const STORAGE_KEY = 'boysnet_wholesale_order_v2';
-const PAGE_SIZE = 36;
+const PAGE_SIZE = 24;
 const EASE_OUT_EXPO: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 interface FilterCheckboxRowProps {
